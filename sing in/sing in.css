@@ -1,0 +1,80 @@
+* {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Vazirmatn;
+    background: url("West Azerbaijan Province.jpg");
+}
+
+input,
+button {
+    font-family: Vazirmatn;
+}
+#login_form .item__form form {
+    width: 35%;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0px 0px 30px 3px #999;
+    border-radius: 25px;
+    margin-top: 170px;
+    background: darkgrey;
+}
+#login_form .item__form form input {
+    width:95%;
+    margin: 10px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: 0;
+    border: 1px solid #e9e9e9;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#login_form .item__form form h2 {
+    text-align: center;
+    font-size: 27px;
+}
+#login_form .item__form form #submit {
+    transition: .3s;
+    width: 99%;
+}
+
+#login_form .item__form form #submit:hover {
+    background-color: green;
+    color: #fff;
+}
+
+#login_form .item__form form input[type="submit"] {
+    cursor: pointer;
+}
+
+#login_form .item__form form p {
+    text-align: center;
+    font-weight: normal;
+    margin-top: 15px;
+    font-family: Vazirmatn;
+    color: red;
+}
+#login_form .item__form form #img1 {
+    position: absolute;
+    left: 65px;
+    top: 168px;
+}
+#login_form .item__form form #img2 {
+    position: absolute;
+    left: 65px;
+    top: 263px;
+}
+#login_form .item__form form a{
+    text-decoration: none;
+    font-family: Vazirmatn;
+    color: rgb(5, 100, 196);
+}
+#login_form .item__form form .signup{
+    color: black;
+    font-family: Vazirmatn;
+}
