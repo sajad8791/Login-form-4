@@ -78,24 +78,24 @@ button {
     color: black;
     font-family: Vazirmatn;
 }
-@media screen and (max-height:600px){
+@media screen and (max-height:800px){
     #login_form .item__form form{
-      width: 57%;
-      margin-top: 119px;
+      width: 67%;
+      margin-top: 175px;
     }
     #login_form .item__form form h2{
-        font-size: 12px;
+        font-size: 20px;
     }
     #login_form .item__form form p{
-        font-size: 11px;
+        font-size: 14px;
     }
     #login_form .item__form form input{
-        font-size: 10px;
+        font-size: 15px;
         margin-top: 15px;
-        left: 43px;
+        left: 31px;
         position: relative;
         height: 15px;
-        width: 141%;
+        width: 112%;
         margin: 6px;
     }
     #login_form .item__form form #img1{
@@ -108,13 +108,59 @@ button {
     }
     #login_form .item__form form #submit{
         transition: .3s;
-        width: 159%;
+        width: 120%;
         justify-content: center;
         align-items: center;
         position: relative;
         display: flex;
         text-align: center;
-        font-size: 10px;
-        height: 33px;
+        font-size: 14px;
+        height: 38px;
+    }
+  }
+  @media screen and (max-height:767px){
+    #login_form .item__form form{
+        width: 36%;
+        margin-top: 190px;
+        padding: 66px;
+      }
+      #login_form .item__form form h2{
+        font-size: 29px;
+      }
+      #login_form .item__form form p{
+        font-size: 17px;
+      }
+      #login_form .item__form form input{
+        font-size: 17px;
+        margin-top: 15px;
+        left: 51px;
+        position: relative;
+        height: 25px;
+        width: 110%;
+        margin: 11px;
+    }
+    #login_form .item__form form #submit{
+        transition: .3s;
+        width: 113%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        display: flex;
+        text-align: center;
+        font-size: 14px;
+        height: 38px;
+    }
+    #login_form .item__form form #img1{
+        left: 41px;
+        top: 172px;
+    }
+    #login_form .item__form form #img2{
+        left: 41px;
+        top: 243px;
+    }
+  }
+  @media screen and (max-height:940px){
+    #login_form .item__form form{
+        width: 74%;
     }
   }
